@@ -54,7 +54,7 @@ public class CrimeListFragment extends Fragment {
             mAdapter.notifyItemChanged(toUpdate);
         }
     }
-
+/*
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data){
 
@@ -74,7 +74,7 @@ public class CrimeListFragment extends Fragment {
             }
         }
     }
-
+*/
 
 
     private class CrimeHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
